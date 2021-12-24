@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 16px;
+    margin-right: 40px;
+}
+#logo img{
+        height: 42px;
+        filter: invert(1)
+    }
+
+#navbar{
+    background-color: rgb(102, 32, 32);
+    padding: 18px 14px;
+    font-family: 'Dancing Script', cursive;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{
+    font-size: 18px;
+    text-decoration: none;
+    padding: 13px 20px;
+    color: white;
+}
+#navbar li a:hover{
+    color: black;
+}
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url("/static/bg.jpg");
+    height: 425px;
+    background-color: red;
+    font-family: 'Dancing Script', cursive;
+    font-size: 45px;
+    padding-bottom: 40px;
+}
+#introsection div.small{
+    font-size: 42px;
+    padding: 5px;
+}
+#missionsection{
+    width: 87%;
+    margin: auto;
+    height: 350px;
+    
+}
+#missionsection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+}
+#sponsorsection{
+    height: 300px;
+    background-color: rgba(116, 40, 40, 0.658);
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    background-color: rgba(139, 100, 100, 0.418);
+    width: 30%;
+    margin: 4px 6px;
+    height: 140px;
+}
+.card h3{
+    text-align: center;
+    margin: 8px 6px;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 100px;
+    
+    margin: 5px 6px;
+}
+.card-img img{
+    height: inherit;
+
+}
+.card-content{
+     padding: 0 10px;
+}
+.card-content p{
+     font-size: 16px;
+}
+#sponsorsection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 36px;
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+     height: 60px;
+     background-color: black;
+     font-size: 20px;
+     font-family: 'Dancing Script', cursive;
+}

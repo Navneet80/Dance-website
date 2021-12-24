@@ -1,0 +1,50 @@
+extends base.pug 
+
+block scripts
+  script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introsection 
+           div Welcome to Navneets Dance Academy
+           div.small Eat Sleep Dance Repeat 
+
+    section#missionsection 
+           h2 our mission
+           div.card
+               h3 Dance perfection
+               div.card-box
+                   div.card-img 
+                       img(src="static/ballerina-2024547_1280.png")
+
+                   div.card-content 
+                       p this is the best Dance Academy   
+           div.card
+               h3 Dance the way you like
+               div.card-box
+                   div.card-img 
+                       img(src="static/ballerina-2024547_1280.png")
+
+                   div.card-content 
+                       p this is the best Dance Academy 
+           div.card
+               h3 perfect teaching 
+               div.card-box
+                   div.card-img 
+                       img(src="static/ballerina-2024547_1280.png")
+
+                   div.card-content 
+                       p this is the best Dance Academy   
+    section#sponsorsection 
+           h2 our sponsors
+           div#sponsors 
+              img(src="static/apple-g62675dbac_640.png" Class="spimage")
+              img(src="static/facebook-g8b489a7a3_640.png" Class="spimage")
+              img(src="static/pixabay-3951079_1280.png" Class="spimage")
+              img(src="static/windows-310290_1280.png" Class="spimage")
+              
+    
+    
